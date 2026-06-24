@@ -21,8 +21,8 @@ print ("SEDANG MENGIRIM KOMEMTAR")
 print("")
 
 
-post = fb.post_parser("LINK POSTIGAN")
-post.send_comment("TEXT NYA")
+post = fb.post_parser("https://www.facebook.com/share/p/1J5GRc3w8h/")
+post.send_comment("SO BEAUTIFUL KIND AND MAGANDA")
 print ("SUCCES")
 print ("")
 os.system("python bot.py")
